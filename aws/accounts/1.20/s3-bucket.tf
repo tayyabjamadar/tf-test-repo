@@ -1,3 +1,6 @@
+provider "aws" {
+  region = "us-east-1"
+}
 resource "aws_s3_bucket" "tf-service-test" {
   bucket = "tf-service-test"
 
